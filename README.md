@@ -2,7 +2,7 @@
 ## Devlogs
 ### W1
 Write your W1 activity Devlog here.
-
+The camera stays in place and the cat moves around the world with the player's view stuck.
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
 
