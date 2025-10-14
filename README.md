@@ -12,6 +12,13 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 
 3. The error tels you the line number and ; expected
 
+### W3
+
+parameters: sanity int
+Return: void
+metaphor: Batman is our class and his gadgets are the member variables. His ability to use those variables are his methods. He can attach himself to the
+botmobile to control its functions like attaching a script to a gameobject to make it a component.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
