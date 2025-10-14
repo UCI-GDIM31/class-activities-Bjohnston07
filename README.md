@@ -19,6 +19,8 @@ Return: void
 metaphor: Batman is our class and his gadgets are the member variables. His ability to use those variables are his methods. He can attach himself to the
 botmobile to control its functions like attaching a script to a gameobject to make it a component.
 
+2. There is no set limit to the brightness so it will scale brightness until white
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
