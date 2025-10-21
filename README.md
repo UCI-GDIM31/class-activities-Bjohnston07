@@ -21,6 +21,12 @@ botmobile to control its functions like attaching a script to a gameobject to ma
 
 2. There is no set limit to the brightness so it will scale brightness until white
 
+### W4
+Table 16
+Line 17: creates a private, boolean, member variable that is set to true
+Line 28: An if statement to check if the space key is down AND the _isgrounded member variable is true
+Line 32: Sets the _isgrounded to false at the end of the if statement
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
