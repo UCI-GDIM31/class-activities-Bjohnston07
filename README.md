@@ -37,7 +37,12 @@ Answer: The get component method gets the component itself as a reference. For e
 and that reference could be used to call methods from that script
 
 Plan: create a serialize field of the player game object, get the player transform component form that game object. 
-Get the navmesh agent component form the deer and use setdestination to have the deer follow the transform position of the player (this is in start)
+Get the navmesh agent component from the deer and use setdestination to have the deer follow the transform position of the player using the gameobject reference
+(this is in update)
+
+Member variables: _cat gameObject & _catTransform of the Transform component
+Methods: update method
+
 
 
 ## Open-Source Assets

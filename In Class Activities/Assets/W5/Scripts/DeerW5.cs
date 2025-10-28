@@ -10,7 +10,7 @@ public class DeerW5 : MonoBehaviour
     public GameObject _cat;
     public Transform _catTransform;
 
-    private void Start()
+    private void Update()
     {
         _catTransform = _cat.GetComponent<Transform>();
         gameObject.GetComponent<NavMeshAgent>().SetDestination(_catTransform.position);

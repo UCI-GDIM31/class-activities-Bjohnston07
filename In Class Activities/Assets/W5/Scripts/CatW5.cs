@@ -31,19 +31,38 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
-        //
-        // STEP 2
-        // After Step 1 is working, add more code to make it possible to flip
-        //      the player's control scheme.
-        // The _flipWSControls member variable, which we can change in the Inspector,
-        //      determines if our controls should be flipped.
-        // If _flipWSControls is true, interpret the value of translation as the
-        //      OPPOSITE value, so that W moves the player backwards and S moves
-        //      them forwards.
-        //
-        // MULTIPLY one of your vectors with a certain value to do this. >:)
 
-        Vector3 translation = Vector3.zero;
+     
+
+        if (Input.GetKey(KeyCode.W) && _flipWSControls == false)
+        {
+            gameObject.GetComponent<Transform>().Translate(Vector3.forward * _moveSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.W) && _flipWSControls)
+        {
+            gameObject.GetComponent<Transform>().Translate((Vector3.forward * -1) * _moveSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.S) && _flipWSControls == false)
+        {
+            gameObject.GetComponent<Transform>().Translate(Vector3.back * _moveSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.S) && _flipWSControls)
+        {
+            gameObject.GetComponent<Transform>().Translate((Vector3.back * -1) * _moveSpeed * Time.deltaTime);
+        }
+            //
+            // STEP 2
+            // After Step 1 is working, add more code to make it possible to flip
+            //      the player's control scheme.
+            // The _flipWSControls member variable, which we can change in the Inspector,
+            //      determines if our controls should be flipped.
+            // If _flipWSControls is true, interpret the value of translation as the
+            //      OPPOSITE value, so that W moves the player backwards and S moves
+            //      them forwards.
+            //
+            // MULTIPLY one of your vectors with a certain value to do this. >:)
+
+            Vector3 translation = Vector3.zero;
         
 
 
