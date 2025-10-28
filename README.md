@@ -36,6 +36,10 @@ Question: How do you use the component reference.
 Answer: The get component method gets the component itself as a reference. For example in MG4, using the on collision method, the BallW3 script was obtained 
 and that reference could be used to call methods from that script
 
+Plan: create a serialize field of the player game object, get the player transform component form that game object. 
+Get the navmesh agent component form the deer and use setdestination to have the deer follow the transform position of the player (this is in start)
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
