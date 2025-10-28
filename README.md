@@ -30,6 +30,12 @@ Line 32: Sets the _isgrounded to false at the end of the if statement
 1. The cat and ball has a rigidbody and the goal has trigger on.
 2. I had ParticleSystem.Play() instead of _goalvfx.Play(), had to figure out to put the particle rather than the class
 
+### W5
+Question: How do you use the component reference.
+
+Answer: The get component method gets the component itself as a reference. For example in MG4, using the on collision method, the BallW3 script was obtained 
+and that reference could be used to call methods from that script
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
