@@ -6049,6 +6049,7 @@ MonoBehaviour:
   - '>:('
   - You're done!
   - It's over!
+  cat: {fileID: 137124481}
   _overlapDistance: 1
   _interactDistance: 4
   _timeBetweenNewMessages: 0.5
