@@ -43,6 +43,18 @@ Get the navmesh agent component from the deer and use setdestination to have the
 Member variables: _cat gameObject & _catTransform of the Transform component
 Methods: update method
 
+### W6
+
+Assignment: Unity Engine
+[Document](https://docs.google.com/document/d/1_FuPSWqTkXPrMthJ3fE3VoS7TKVECOjqZArYk2FPLWk/edit?tab=t.0)
+
+Member Variables: serialize field move speed, serialize field interact distance, boolean follow player
+Methods: 
+update(): If bat is close enough to player, call start, also controls bats continuous movement if boolean is active
+start(): set a boolean true that 
+stop(): sets boolean inactive
+oncollisionenter2D(): calls stop and sets text to active
+
 
 
 ## Open-Source Assets
