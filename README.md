@@ -55,6 +55,10 @@ start(): set a boolean true that
 stop(): sets boolean inactive
 oncollisionenter2D(): calls stop and sets text to active
 
+### W7
+
+https://docs.google.com/document/d/15Bf9iq4hlaq_e307D2wAsGnGOj82cBwZpf1YgvIXKqo/edit?tab=t.0 role: physics
+
 
 
 ## Open-Source Assets
