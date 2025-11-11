@@ -59,6 +59,8 @@ oncollisionenter2D(): calls stop and sets text to active
 
 https://docs.google.com/document/d/15Bf9iq4hlaq_e307D2wAsGnGOj82cBwZpf1YgvIXKqo/edit?tab=t.0 role: physics
 
+In step 2, the original code was moving position in worldspace, using translate instead moves it in object space
+
 
 
 ## Open-Source Assets
